@@ -1,0 +1,35 @@
+#img1{
+    width: 20%;
+    border-radius: 100%;
+    margin-left: 50%;
+}
+#txt1{
+    display:flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2pm;
+    margin-left: 10%;
+    align-items: center;
+    font-size: 3em;
+}
+header{
+    margin: 1%;
+    display:flex;
+    border-radius: 15px;
+    border-style:groove;
+    border-width: 4%;
+    border-color: blue;
+    animation-duration: 1s;
+    animation-name: tp1;
+    animation-iteration-count: infinite;
+}
+@keyframes tp1 {
+    0%{background: linear-gradient(to right, green, blue, red );}
+    33%{background: linear-gradient(to right, red, blue, green);}
+    66%{background: linear-gradient(to right, green, red,blue );}
+    100%{background: linear-gradient(to right, green, blue, red );}
+}
+nav{
+}
+body{
+    background-color: #FFF;
+}
