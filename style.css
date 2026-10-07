@@ -37,7 +37,7 @@ header{
 body{
     background-color: rgb(0, 0, 0);
 }
-li{
+.li{
     display: inline-block;
     background: linear-gradient(to bottom right, red, transparent 20%),
                linear-gradient(to top left, green, transparent 20%);
@@ -54,7 +54,7 @@ a{
     font-size: 1vw;
     color: black;
 }
-li:hover{
+.li:hover{
     background-color: rgb(52, 95, 95);
     
 }
@@ -92,7 +92,7 @@ div{
 }
 main{
     width: 17%;
-    background-color: #ffffff;
+    background-color: #3d5dd2;
     height: 600px;
     margin-top: 1%;
 }
@@ -105,4 +105,18 @@ footer{
     border-radius: 5px;
     height: 100px;
     text-align: center;
+}
+.ul{
+    margin: 20%;
+}
+.li2{
+    margin: 1%;
+    font-size: 1vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#p1{
+    margin: 5%;
+    font-size: 1vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
 }
