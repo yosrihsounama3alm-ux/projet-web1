@@ -9,11 +9,73 @@
 <body>
     <h1>decouvrez le</h1>
     <h1>club robotique</h1>
+    <div>
     <figure>
       <img src="images/tp2_n2_images.jpg" alt="" id="img2" >
-      <figcaption align="justify">EXplorez l'innovation, construisez l'avenir. rejoignez notre communa de passionnes !</figcaption>
+      <figcaption>EXplorez l'innovation, construisez l'avenir. rejoignez notre communa de passionnes !</figcaption>
     </figure>
-    <h2>notre mission</h2>
-    <p>Notre mission est de proposer des solutions innovantes et adaptées aux besoins de nos clients. Nous nous engageons à offrir des services de qualité, à respecter nos engagements et à améliorer continuellement notre travail afin de garantir la satisfaction de nos clients.</p>
+    <table>
+      <tr><th><h2>notre mission</h2></th></tr>
+      <tr><td><p>Notre mission est de proposer des solutions innovantes et adaptées aux besoins de nos clients. Nous nous engageons à offrir des services de qualité, à respecter nos engagements et à améliorer continuellement notre travail afin de garantir la satisfaction de nos clients.</p></td></tr>
+    </table>
+    </div>
 </body>
+<style>
+  h1{
+    font-size: 2vw;
+    text-align: center;
+    color: rgb(71, 67, 67);
+    font-size: 5vw;
+    margin-bottom: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      animation-name: th1;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+  }
+  @keyframes th1 {
+      0%{color: rgb(255, 255, 255);}
+      18%{color: rgb(255, 255, 0);}
+      36%{color: rgb(255,0, 0);}
+      54%{color: rgb(0, 0, 0)red;}
+      72%{color: rgb(0, 0, 255);}
+      90%{color: rgb(0, 255, 255);}
+      100%{color: rgb(255,255, 255);}
+  }
+  body{
+    background-color: rgb(149, 149, 252);
+  
+  }
+  img{
+    border-radius: 10px;
+    width: 100%;
+  }
+  figcaption{
+    width: 100%;
+    font-size: 3vw;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: aqua;
+    
+  }
+  figure{
+    background-color: aqua;
+    border-radius: 15px;
+    border-style: groove;
+    border-color: black;
+    border-width: 3px;
+    width: 40%;
+    padding: 3px;
+    height: 100%;
+  }
+  div{
+    display: flex;
+  }
+  p{
+    text-align: justify;
+    font-size: 2vw;
+  }
+  table{
+    width: 55%;
+  }
+</style>
 </html>
