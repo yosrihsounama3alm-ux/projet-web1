@@ -30,8 +30,8 @@ header{
 }
 @keyframes tp1 {
     0%{background: linear-gradient(to right, green, blue, red );}
-    33%{background: linear-gradient(to right, red, blue, green);}
-    66%{background: linear-gradient(to right, green, red,blue );}
+    33%{background: linear-gradient(to right, red, green, blue);}
+    66%{background: linear-gradient(to right, blue, red,green );}
     100%{background: linear-gradient(to right, green, blue, red );}
 }
 body{
