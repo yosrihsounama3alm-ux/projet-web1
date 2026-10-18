@@ -1,5 +1,5 @@
   h1{
-    font-size: 2vw;
+    font-size: 40vw;
     text-align: center;
     color: rgb(71, 67, 67);
     font-size: 5vw;
@@ -27,8 +27,8 @@
     width: 100%;
   }
   figcaption{
-    width: 100%;
-    font-size: 3vw;
+    width: 98%;
+    font-size: 4vw;
     border-radius: 10px;
     border-style: groove;
     border-color: aqua;
@@ -40,7 +40,7 @@
     border-style: groove;
     border-color: black;
     border-width: 3px;
-    width: 40%;
+    width: 30%;
     padding: 3px;
     height: 100%;
   }
